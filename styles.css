@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.wrapper-sm {
+  max-width: 900px;
+  margin: 0 auto;
+  
+}
+
+#hero {
+    background-color: #1f2937;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.hero-content {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.left-column {
+    color: #fff;
+    flex: 1;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.right-column img {
+    width: 100%;
+}
+
+.second-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.highlights-list {
+    display: flex;
+    flex: 1;
+    align-content: center;
+}
+
+.highlights-item {
+    flex: 1;
+    height: 250px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.highlights-item img {
+    max-height: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.highlights-text {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+  font-size: 10pt;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.citation {
+  float: right;
+  font-weight: bold;
+}
+
+.forth-section {
+  display: flex;
+  align-items: center;
+  height: 250px;
+  justify-content: center;
+}
+
+.cta-section {
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    height: 100px;
+}
+
+.cta-text p{
+  font-size: 10pt;
+  background-color: #3882f6;
+  line-height: 16pt;
+}
+.cta-text span{
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.cta-text h5{
+  background-color: #3882f6;
+  font-size: 16pt;
+}
+
+.cta-button button{
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: #fff;
+  border: solid 2px #fff;
+}
+
+footer{
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 9pt;
+  padding: 10px 0;
+}
